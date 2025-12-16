@@ -19,21 +19,24 @@
                             <img
                                 src="stand_day.jpeg"
                                 alt="Food stand during the day"
+                                class="lightbox-trigger"
                             />
                         </div>
                         <div class="gallery-item">
                             <img
                                 src="pile_o_kofte.jpeg"
                                 alt="Kofte on a plate"
+                                class="lightbox-trigger"
                             />
                         </div>
                         <div class="gallery-item">
-                            <img src="IMG_6113.jpeg" alt="Wrap" />
+                            <img src="IMG_6113.jpeg" alt="Wrap" class="lightbox-trigger" />
                         </div>
                         <div class="gallery-item">
                             <img
                                 src="lentil_kofte.jpeg"
                                 alt="Lentil meatballs"
+                                class="lightbox-trigger"
                             />
                         </div>
                     </div>
@@ -66,8 +69,17 @@
             </section>
         </main>
 
+        <!-- Lightbox container -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <div id="lightbox-caption"></div>
+        </div>
+
         <footer>
             <p>&copy; 2025 Srma, LLC. All rights reserved.</p>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
